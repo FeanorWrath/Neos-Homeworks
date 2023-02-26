@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABLES</title>
+    <style>
+        td{
+            width: 100px;
+            height: 50px;
+        }
+        .odev1{
+            border-radius: 5%;
+        }
+        .odev2{
+            width: 600px;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+  <h2>ODEV 1</h2>
+  <table class="odev1" border="5px">
+    <tr>
+        <td colspan="3" rowspan="2" style="border-top-left-radius: 8%;">2 Satir 3 Sutun</td>
+        <td colspan="2" rowspan="2">2 satir 3 sutun</td>
+        <td rowspan="4">4 Satir</td>
+        <td>1</td>
+        <td style="border-top-right-radius: 8%;">1</td>
+       
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>1</td>
+              
+    </tr>
+    <tr>
+        <td colspan="5" rowspan="2" style="border-bottom-left-radius: 8%;">2 Satir 5 sutun</td>
+        <td colspan="2">2</td>    
+    </tr>
+    <tr>
+        <td colspan="2" style="border-bottom-right-radius: 8%;">2</td>                 
+    </tr>
+  </table>
+
+  <h2>ODEV 2</h2>
+  <table class="odev2" border="5px">
+    <tr>
+        <th colspan="6">BASLİK</th>
+    </tr>
+    <tr>
+        <td colspan="2" rowspan="2">2x2</td>
+        <td colspan="3">1x3</td>
+        <td>1</td>
+    </tr>
+    <tr>
+        <td colspan="2" rowspan="2">2x2</td>
+        <td colspan="2" rowspan="2">2x2</td>
+        
+    </tr>
+    <tr>
+        <td rowspan="2">2x1</td>
+        <td rowspan="2">2x1</td>
+       
+    </tr>
+    <tr>
+        <td colspan="4">1x4</td>
+       
+    </tr>
+  </table>
+    
+</body>
+</html>
