@@ -1,0 +1,271 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+html,body{
+    padding: 0;
+}
+.border{
+    border: 4px solid black;
+}
+.container{
+    width: 1400px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.bighid1{
+    width: 90%;
+    height: 45%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bigyellow{
+    width: 90%;
+    height: 30%;
+    background: rgb(230, 202, 47);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.brown9{
+    width: 19%;
+    height: 90%;
+    background: rgb(209, 128, 71);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lgray8{
+    width: 50% ;
+    height: 40%;
+    background: gray;
+}
+.brown10{
+    width: 18%;
+    height: 85%;
+    background: rgb(209, 128, 71);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.lgray9{
+    width: 90%;
+    height: 25%;
+    background: gray;
+}
+.lgray10{
+    width: 90%;
+    height: 30%;
+    background:gray ;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 5px;
+}
+.green3{
+    width: 35%;
+    height: 80%;
+    background: greenyellow;
+}
+.brown11{
+    width: 18%;
+    height: 82.5%;
+    background: rgb(209, 128, 71);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.lgray11{
+    width: 35%;
+    height: 90%;
+    background: gray;
+}
+.hiddiv5{
+    width: 50%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.lgray12{
+    width: 100%;
+    height: 40%;
+    background: gray;
+}
+.brown12{
+    width: 20%;
+    height: 80%;
+    background: rgb(209, 128, 71);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.lgray13{
+    width: 90%;
+    height: 40%;
+    background:gray;
+}
+.lgray14{
+    width: 40%;
+    height: 40%;
+    background: gray;
+}
+.yel1{
+    width: 47%;
+    height: 100%;
+    background: rgb(230, 202, 47);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.yel2{
+    width: 47%;
+    height: 100%;
+    background: rgb(230, 202, 47);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.brown4{
+    width: 38%;
+    height: 90%;
+    background: rgb(209, 128, 71);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lgray5{
+    width: 90%;
+    height: 50%;
+    background:gray;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.green1{
+    width: 30%;
+    height: 90%;
+    background: yellowgreen;
+}
+.green2{
+    width: 30%;
+    height: 90%;
+    margin-top: 5px;
+    background: yellowgreen;
+}
+.hiddiv3{
+    width: 55%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.brown5{
+    width: 100%;
+    height: 30%;
+    background: rgb(209, 128, 71);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lgray6{
+    width: 35%;
+    height: 30%;
+    background: gray;
+    margin: 0px 0px 15px 180px;
+}
+.lgray7{
+    width: 35%;
+    height: 30%;
+    background: gray;
+}
+
+.brown6{
+    width: 100%;
+    height: 30%;
+    background: rgb(209, 128, 71);
+}
+.hiddiv4{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.brown7{
+    width: 48%;
+    height: 100%;
+    background: rgb(209, 128, 71);
+}
+.brown8{
+    width: 48%;
+    height: 100%;
+    background: rgb(209, 128, 71);
+}
+.hiddiv1{
+    width: 90%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    margin-left: 23px;
+}
+.hiddiv2{
+    width: 90%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+}
+.brown1{
+    width: 45%;
+    height: 90%;
+    background: rgb(209, 128, 71);
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+}
+.lgray1{
+    width: 45%;
+    height: 90%;
+    background: gray;
+}
+.lgray2{
+    width: 45%;
+    height: 25%;
+    background: gray;
+}
+.brown2{
+    width: 45%;
+    height: 90%;
+    background: rgb(209, 128, 71);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.brown3{
+    width: 45%;
+    height: 90%;
+    background: rgb(209, 128, 71);
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+}
+.lgray4{
+    width: 40%;
+    height: 90%;
+    background: gray;
+    
+}
+.lgray3{
+    width: 90%;
+    height: 40%;
+    margin-bottom: 10px;
+    background: gray;
+}
+
