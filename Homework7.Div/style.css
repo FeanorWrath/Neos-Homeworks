@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+html,body{
+    padding: 0;
+}
+.border{
+    border: 5px solid black;
+}
+.container{
+    width: 1000px;
+    height: 1000px;   
+}
+.bighid1{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 20px;
+    
+}
+.bighid2{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+.Bigsq1{
+    width: 55%;
+    height: 70%;  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Bigsq2{
+    width: 40%;
+    height: 55%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.Bigsq3{
+    width: 55%;
+    height: 70%; 
+    margin-top: 10px;  
+    display: flex;
+    align-items: end;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+.Bigsq4{
+    width: 40%;
+    height: 55%; 
+    
+}
+.lsq1{
+    width: 35%;
+    height: 45%;
+    margin-left: 5px;
+}
+.lsq2{
+    width: 20%;
+    height: 35%;
+}
+.lsq3{
+    width: 25%;
+    height: 35%;
+}
+.lsq4{
+    width: 22%;
+    height: 35%;
+    margin-bottom: 5px;
+}
+.lsq5{
+    width: 18%;
+    height: 35%;
+    margin-bottom: 5px;
+}
+.sq{
+    width: 95%;
+    height: 40%;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+.hiddiv1{
+    width: 90%;
+    height: 55%;
+    margin: 5px auto;
+    display: flex;
+    justify-content: end;
+}
+.sq2{
+    width: 25%;
+    height: 80%;
+}
+.sq3{
+    width: 40%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sq4{
+    width: 50%;
+    height: 35%;
+}
